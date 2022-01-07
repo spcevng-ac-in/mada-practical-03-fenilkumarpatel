@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:text="Motivational Quotes"
+            android:textColor="#FFEB3B"
+            android:textSize="50sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Monday: Get Motivated"
+
+            android:textAlignment="center"
+            android:textColor="#6BC6BD"
+            android:textSize="34sp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Sure, even The Carpenters agreed that “Mondays always get you down,” but that doesn’t mean some good old-fashioned motivation can’t get you geared up and excited for the week ahead, even with all of its attendant challenges. Let these inspirational quotes, culled from many generations of brilliant thinkers, motivate you to go that extra mile today—especially if it doesn’t seem possible. It is possible, and we also suspect that the rest of your week will thank you later for the effort you put out today."
+
+            android:textAlignment="center"
+            android:textColor="#B66681"
+            android:textSize="23sp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:rotation="0"
+            android:rotationX="0"
+            android:src="@drawable/mv2" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Tuesday: Get Down to Business"
+
+            android:textAlignment="center"
+            android:textColor="#6BC6BD"
+            android:textSize="34sp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="When Tuesday rolls around, it’s really time to get down to work—but that’s sometimes easier said than done. Having trouble getting started on your Tuesday motivation? These expert motivational quotes will help boost your productivity so you can power through that to-do list and set yourself up for success for the rest of the week."
+            android:textAlignment="center"
+            android:textColor="#B66681"
+            android:textSize="23sp"
+            tools:ignore="HardcodedText">
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:rotation="0"
+            android:rotationX="0"
+            android:src="@drawable/mv3" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Wednesday: Keep it Going"
+
+            android:textAlignment="center"
+            android:textColor="#6BC6BD"
+            android:textSize="34sp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="It’s hump day, so you’re already halfway through the week—and you’re doing great so far. But don’t let that slow you down or stop you from working hard to achieve your goals for the rest of the week. These hump day quotes will give you that extra push to keep reaching."
+            android:textAlignment="center"
+            android:textColor="#B66681"
+            android:textSize="23sp"
+            tools:ignore="HardcodedText">
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:rotation="0"
+            android:rotationX="0"
+            android:src="@drawable/mv4" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Thursday: Reflect on All You’ve Done"
+
+            android:textAlignment="center"
+            android:textColor="#6BC6BD"
+            android:textSize="34sp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="You’ve been focused and hard at work all week, so get your Thursday motivation started by taking a moment to look back at all that you’ve achieved. These reflective quotes for work will open your mind and allow you to appreciate where you’ve been, where you’re going and how well you accomplish your goals."
+            android:textAlignment="center"
+            android:textColor="#B66681"
+            android:textSize="23sp"
+            tools:ignore="HardcodedText">
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:rotation="0"
+            android:rotationX="0"
+            android:src="@drawable/mv5" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Friday: Conquer Your Fears"
+
+            android:textAlignment="center"
+            android:textColor="#6BC6BD"
+            android:textSize="34sp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="It’s Friday, and if you’re lucky, this means that it’ll soon be the end of your work week responsibilities. You may need to be as productive as you can for one more day, but as you move into your weekend, remember not to let your fears hold you back—in your career or your life! These quotes will urge you to leave your current worries at the door and walk confidently toward the future."
+            android:textAlignment="center"
+            android:textColor="#B66681"
+            android:textSize="23sp"
+            tools:ignore="HardcodedText">
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:rotation="0"
+            android:rotationX="0"
+            android:src="@drawable/mv6" />
+        <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Saturday and Sunday: Prep for Success"
+
+        android:textAlignment="center"
+        android:textColor="#6BC6BD"
+        android:textSize="34sp"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="The weekend is a time for relaxing, rejuvenating, and reflecting on what you really want out of your life. It may also be a time to think about how to balance your job, the larger arc of your career, and your personal life in order to maximize happiness. Use these extra moments of free time to mentally prep for success!"
+            android:textAlignment="center"
+            android:textColor="#B66681"
+            android:textSize="23sp"
+            tools:ignore="HardcodedText">
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:rotation="0"
+            android:rotationX="0"
+            android:src="@drawable/mv7" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
